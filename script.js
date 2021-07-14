@@ -6,6 +6,7 @@ const projects = [
   "rotating-navigation",
   "hidden-serach-widget",
   "blured-loading",
+  "scroll-animation",
 ];
 
 function titleCase(str) {
