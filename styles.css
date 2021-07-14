@@ -7,7 +7,7 @@
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
-  background-color: skyblue;
+  background-image: linear-gradient(to bottom, rgb(122, 155, 245), #557bf8);
 }
 
 .container {
@@ -21,4 +21,12 @@ body {
 
 .container li {
   margin: 10px;
+}
+
+a {
+  color: aquamarine;
+}
+
+a:visited {
+  color: aquamarine;
 }
