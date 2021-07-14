@@ -5,6 +5,7 @@ const projects = [
   "expanding-cards",
   "rotating-navigation",
   "hidden-serach-widget",
+  "blured-loading",
 ];
 
 function titleCase(str) {
