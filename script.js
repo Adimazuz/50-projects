@@ -1,6 +1,11 @@
 const projectsList = document.getElementById("projects-list");
 
-const projects = ["progress-steps", "expanding-cards", "rotating-navigation"];
+const projects = [
+  "progress-steps",
+  "expanding-cards",
+  "rotating-navigation",
+  "hidden-serach-widget",
+];
 
 function titleCase(str) {
   var splitStr = str.toLowerCase().split(" ");
