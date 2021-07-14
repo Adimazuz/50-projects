@@ -20,7 +20,7 @@ function titleCase(str) {
 }
 
 projects.forEach((folderName) => {
-  const projectName = folderName.replace("-", " ");
+  const projectName = folderName.replaceAll("-", " ");
   const projectTitle = titleCase(projectName);
   const element = `<li> <span class="fa-li"><i class="fas fa-angle-double-right"></i></i></span> <a href="./${folderName}/">${projectTitle}</a> </li>`;
 
