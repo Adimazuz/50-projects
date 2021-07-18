@@ -7,6 +7,8 @@ const projects = [
   "hidden-serach-widget",
   "blured-loading",
   "scroll-animation",
+  "split-landing-page",
+  "form-wave-animation",
 ];
 
 function titleCase(str) {
@@ -23,8 +25,9 @@ function titleCase(str) {
 
 projects.forEach((folderName) => {
   const projectName = folderName.replaceAll("-", " ");
+  const projectPath = `projects\\${folderName}`;
   const projectTitle = titleCase(projectName);
-  const element = `<li> <span class="fa-li"><i class="fas fa-angle-double-right"></i></i></span> <a href="./${folderName}/">${projectTitle}</a> </li>`;
+  const element = `<li> <span class="fa-li"><i class="fas fa-angle-double-right"></i></i></span> <a href="${projectPath}/">${projectTitle}</a> </li>`;
 
   projectsList.innerHTML += element;
 });

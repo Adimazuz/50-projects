@@ -17,22 +17,25 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>50 Small Projects</title>
+    <title>Form Wave Animation</title>
   </head>
 
   <body>
     <div class="container">
-      <h1>50 Small Projects</h1>
+      <form>
+        <div class="form-control">
+          <input type="text" required />
+          <label>username</label>
+        </div>
 
-      <p>
-        This is a website containing all the small projects i made along with
-        the udemy course
-        <a href="https://www.udemy.com/course/50-projects-50-days/"
-          >50 Projects In 50 Days - HTML, CSS & JavaScript</a
-        >
-      </p>
-      <p>all project use HTML,CSS and vanilla JS</p>
-      <ul class="fa-ul" id="projects-list"></ul>
+        <div class="form-control">
+          <input type="password" required />
+          <label>password</label>
+        </div>
+
+        <button class="btn">Login</button>
+        <p>Dont have a user ? <a href="">Register</a></p>
+      </form>
     </div>
     <script src="script.js"></script>
   </body>
