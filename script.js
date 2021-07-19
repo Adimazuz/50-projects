@@ -9,6 +9,7 @@ const projects = [
   "scroll-animation",
   "split-landing-page",
   "form-wave-animation",
+  "sound-board",
 ];
 
 function titleCase(str) {

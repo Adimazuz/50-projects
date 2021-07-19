@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: cadetblue;
+}
+
+.btn {
+  margin: 20px;
+  width: 20vw;
+  height: 40vh;
+  border-radius: 5px;
+  border: 0;
+  font-size: 3rem;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+.luffy {
+  background-image: url("https://www.anime-planet.com/images/characters/monkey-d-luffy-74.jpg");
+}
+
+.crocodile {
+  background-image: url("https://i.ytimg.com/vi/2Z0UkafQn1g/maxresdefault.jpg");
+}
+
+.arlong {
+  background-image: url("https://static.wikia.nocookie.net/onepiece/images/0/01/Arlong_Anime_Infobox.png/revision/latest?cb=20140916073822");
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
