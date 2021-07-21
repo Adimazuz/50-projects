@@ -10,6 +10,8 @@ const projects = [
   "split-landing-page",
   "form-wave-animation",
   "sound-board",
+  "dad-jokes",
+  "key-codes",
 ];
 
 function titleCase(str) {
