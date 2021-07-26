@@ -12,6 +12,8 @@ const projects = [
   "sound-board",
   "dad-jokes",
   "key-codes",
+  "faq-collapse",
+  "random-choice-picker",
 ];
 
 function titleCase(str) {
