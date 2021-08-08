@@ -14,6 +14,8 @@ const projects = [
   "key-codes",
   "faq-collapse",
   "random-choice-picker",
+  "animated-navigation",
+  "incrementing-counter",
 ];
 
 function titleCase(str) {
