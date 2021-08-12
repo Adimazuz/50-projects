@@ -16,6 +16,8 @@ const projects = [
   "random-choice-picker",
   "animated-navigation",
   "incrementing-counter",
+  "drink-water",
+  "movie-app",
 ];
 
 function titleCase(str) {
