@@ -18,6 +18,7 @@ const projects = [
   "incrementing-counter",
   "drink-water",
   "movie-app",
+  "sliding-background",
 ];
 
 function titleCase(str) {
