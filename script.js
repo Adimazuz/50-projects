@@ -19,6 +19,7 @@ const projects = [
   "drink-water",
   "movie-app",
   "sliding-background",
+  "clock",
 ];
 
 function titleCase(str) {
